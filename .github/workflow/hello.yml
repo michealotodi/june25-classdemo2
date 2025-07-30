@@ -1,8 +1,0 @@
-name: hello mike
-on: [push]
-jobs:
- say-hello:
-   run-on: ubuntu-latest
-    steps:
-     - name:hello mike
-       run: echo "hello,mike!"
